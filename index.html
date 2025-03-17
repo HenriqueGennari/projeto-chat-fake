@@ -1,0 +1,232 @@
+<html>
+<head>
+    <html lang="en"></html>
+    <title>Projeto CHAT</title>
+    
+    <link rel="stylesheet" href="./src/assets/css/ui--kit.css">
+    <link rel="stylesheet" href="./src/assets/css/style.css">
+    <script src="src/script/script.js"></script>
+    
+</head>
+<body>
+    <div class="flex flex--direction--row container">
+        <div class="flex flex--direction--column flex--1 border--right">
+
+            <div class="flex flex--direction--row menu">
+
+                <div class="flex justify--content--center align--items--center flex--1">
+                    <img src="src/assets/icons/MenuIcon.png" id="teste">
+                </div>
+                <div class="flex justify--content--center align--items--center flex--5 search">
+                    <div class="flex align--items--center background--lightgray div--search">
+                        <img src="src/assets/icons/Search.png">
+                        <input type="search" placeholder="Buscar contato">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex--direction--column div--contacts">   <!--AREA DO CONTATOS-->
+                <div class="flex area--contatc"> <!--PRIMEIRO CONTATO--> 
+                    <div class="flex justify--content--center align--items--center flex--1">
+                        <img class="avatar--left--bar" src="src/assets/images/chatbot.png" alt="">
+                    </div>
+
+                    <div class="flex flex--direction--column justify--content--center flex--3">
+                        <div class="flex align--items--center infos--contact">
+                            <div class="font--family font--weight--bold">Chatgram</div>
+                            <img src="src/assets/icons/verified bot.png">
+                        </div>
+                        <div class="last--message">
+                            Chatgram Web was updated.
+                        </div>
+                    </div>
+
+                    <div class="flex flex--direction--column flex--1 align--items--end justify--content--center div--last--messages--info ">
+                        <div class="hour--last--message">19:48</div>
+                        <div class=" flex quantity--not--last--viwed--messages align--items--center justify--content--center">1</div>
+                    </div>
+                </div>
+
+                <!--COPIANDO A MESMA DIV PARA CRIAR OUTRAS CONVERSAS-->
+                `x
+                <div class="flex area--contatc">
+                    <div class="flex justify--content--center align--items--center flex--1">
+                        <img class="avatar--left--bar" src="src/assets/images/Office.png" alt="">
+                    </div>
+
+                    <div class="flex flex--direction--column justify--content--center flex--3">
+                        <div class="flex align--items--center infos--contact">
+                            <div class="font--family font--weight--bold">Office Chat</div>
+                        </div>
+                        <div class="last--message">
+                            Lewis: All done mate.
+                        </div>
+                    </div>
+
+                    <div class="flex flex--direction--column flex--1 align--items--end justify--content--center div--last--messages--info ">
+                        <div class="hour--last--message">17:08</div>
+                    </div>
+                </div>
+
+                <div class="flex area--contatc">
+                    <div class="flex justify--content--center align--items--center flex--1">
+                        <img class="avatar--left--bar" src="src/assets/images/Announcemants.png" alt="">
+                    </div>
+
+                    <div class="flex flex--direction--column justify--content--center flex--3">
+                        <div class="flex align--items--center infos--contact">
+                            <div class="font--family font--weight--bold">Announcements</div>
+                        </div>
+                        <div class="last--message">
+                            Chanel created
+                        </div>
+                    </div>
+
+                    <div class="flex flex--direction--column flex--1 align--items--end justify--content--center div--last--messages--info ">
+                        <div class="hour--last--message">16:15</div>
+                    </div>
+                </div>
+
+
+                <div class="flex area--contatc">
+                    <div class="flex justify--content--center align--items--center flex--1">
+                        <img class="avatar--left--bar" src="src/assets/images/LittleSister.png" alt="">
+                    </div>
+
+                    <div class="flex flex--direction--column justify--content--center flex--3">
+                        <div class="flex align--items--center infos--contact">
+                            <div class="font--family font--weight--bold">Little sister</div>
+                        </div>
+                        <div class="last--message">
+                            Tell mom i will be home for tea
+                        </div>
+                    </div>
+
+                    <div class="flex flex--direction--column flex--1 align--items--end justify--content--center div--last--messages--info ">
+                        <div class="hour--last--message">Wed</div>
+                    </div>
+                </div>
+
+                <div class="flex area--contatc">
+                    <div class="flex justify--content--center align--items--center flex--1">
+                        <img class="avatar--left--bar" src="src/assets/images/ArtClass.png" alt="">
+                    </div>
+
+                    <div class="flex flex--direction--column justify--content--center flex--3">
+                        <div class="flex align--items--center infos--contact">
+                            <div class="font--family font--weight--bold">Art Class</div>
+                        </div>
+                        <div class="last--message">
+                            Emily: Editorial
+                        </div>
+                    </div>
+
+                    <div class="flex flex--direction--column flex--1 align--items--end justify--content--center div--last--messages--info ">
+                        <div class="hour--last--message">Tue</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- DIVISÃO ENTRE LADO DE CONTATOS E LADO DA CONVERSA ABERTA -->
+
+
+        <div class="flex flex--direction--column align--items--start flex--3-5">
+            <div class="flex align--items--center side--bar">
+                <div class="flex flex--1">
+                    <img src="src/assets/images/David.png" alt="">
+                </div>
+                <div class="flex flex--direction--column flex--13">
+                    <div class="contact--name">David Moore</div>
+                    <div class=contact--status>Last seen 5 minutes ago</div>
+                </div>
+                <div class="flex flex--3 justify--content--end align--items--center div--sidebar--icons">
+                    <div class="flex justify--content--center align--items--center flex--5 search">
+                        <div class="flex align--items--center background--lightgray div--search">
+                            <img src="src/assets/icons/Search.png">
+                            <input type="search" id="search--message"placeholder="Buscar menssagem">
+                        </div>
+                    </div>
+                    <img src="src/assets/icons/call icon.png" alt="">
+                    <img src="src/assets/icons/more icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="flex background--messages">
+                <div class="flex flex--direction--column div--container--messages width--100">
+                    <div class="flex flex--direction--column flex--6 justify--content--end">  
+
+                        <div class="flex flex--direction--column align--items--center width--100 div--messages">
+                            <div class="date--chat flex justify--content--center align--items--center">
+                                Today
+                            </div>
+                            
+                            <div class="flex flex--direction--row justify--content--start width--100 flex--3">
+                                <div class=" flex flex--direction--column message other">
+                                    <div class="flex flex--4">
+                                        OMG 😲 do you remember what you did last night at the work night out?
+                                    </div>
+
+                                    <div class="flex flex--direction--row justify--content--end font--size--12 align--items--center infos--message">
+                                        <img src="src/assets/icons/VectorHeart.png">
+                                        <div>18:52</div>
+                                        <img src="src/assets/icons/VectorChecked.png" id="iconeChecked">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex justify--content--end width--100">
+                                <div class="message you">
+                                    <div class=" flex flex--direction--column message you">
+                                        <div class="flex flex--4">
+                                            No haha
+                                        </div>
+    
+                                        <div class="flex flex--direction--row justify--content--end font--size--12 align--items--center infos--message">
+                                            <img src="src/assets/icons/VectorHeart.png">
+                                            <div>18:52</div>
+                                            <img src="src/assets/icons/VectorChecked.png" id="iconeChecked">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex justify--content--end width--100">
+                                <div class="message you">
+                                    <div class="flex flex--direction--column message you">
+                                        <div class="flex flex--4">
+                                            i don't remember anything 😄
+                                        </div>
+    
+                                        <div class="flex flex--direction--row justify--content--end font--size--12 align--items--center infos--message">
+                                            <img src="src/assets/icons/VectorHeart.png">
+                                            <div>18:52</div>
+                                            <img src="src/assets/icons/VectorChecked.png" id="iconeChecked">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex--1 align--items--center">
+                        <div class="flex flex--direction--row div--text--field">
+                            <div class=" flex flex--1 justify--content--center align--items--center">
+                                <img src="src/assets/icons/Emoji Icon.png" class="cursor--pointer">
+                            </div>
+
+                            <div class="flex--13">
+                                <input type="text" id="inputMensagem" class="text--field">
+                            </div>
+
+                            <div class="flex flex--1 justify--content--center align--items--center">
+                                <img src="src/assets/icons/Send Icon.png" class="cursor--pointer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
