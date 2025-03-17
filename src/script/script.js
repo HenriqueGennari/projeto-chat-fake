@@ -101,7 +101,7 @@ const listaDeContatos = [
         nome : "Gennari",
         ultimaMensagem : "Exibindo última mensagem!",
         horarioUltimaMensagem : "14:02",
-        avatar : "src/assets/images/Emily.png",
+        avatar : "src/assets/images/chatbot.png",
         converas : [
             {
                 mensagem : "Oi, eu sou o principe",
