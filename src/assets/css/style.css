@@ -76,12 +76,17 @@ body{
     width: 18px;
     height: 18px;
 }
+.div--contacts{
+    overflow-y: auto; /*criando scroll na div de exibição de mensagens*/
+    overflow-x: hidden; /* Evita a quebra lateral */
 
+}
 .area--contatc{
     height: 72px;
     padding-left: 5px;
     padding-right: 10px;
     cursor: pointer; /*CURSOR COMO LUVINHA*/
+    
 }
 .area--contatc:hover{
     background-color: rgba(128, 128, 128, 0.233);

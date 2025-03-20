@@ -30,7 +30,7 @@ const listaDeContatos = [
         avatar : "src/assets/images/David.png",
         converas : [
             {
-                mensagem : "Oi, eu sou a maria ",
+                mensagem : "Oi, eu sou o José ",
                 tipo : "recebida",
                 horario : "20:20"
             },
@@ -73,13 +73,13 @@ const listaDeContatos = [
         ],
     },
     {id : 4,
-        nome : "José",
+        nome : "Ana",
         ultimaMensagem : "Tem café?",
         horarioUltimaMensagem : "20:20",
         avatar : "src/assets/images/Emily.png",
         converas : [
             {
-                mensagem : "Oi, eu sou José ",
+                mensagem : "Oi, eu sou a Ama ",
                 tipo : "recebida",
                 horario : "20:20"
             },
@@ -101,7 +101,7 @@ const listaDeContatos = [
         nome : "Gennari",
         ultimaMensagem : "Exibindo última mensagem!",
         horarioUltimaMensagem : "14:02",
-        avatar : "src/assets/images/Emily.png",
+        avatar : "src/assets/images/chatbot.png",
         converas : [
             {
                 mensagem : "Oi, eu sou o principe",
@@ -213,6 +213,121 @@ const listaDeContatos = [
                     horario : "20:20"
                 }
             ],
+    },
+    {id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
+    },
+    {id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
+    },
+    {id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
+    },
+    {id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
+    },
+    {id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
     },
     {id : 1,
         nome : "Maria",
