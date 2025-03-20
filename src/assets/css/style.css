@@ -41,8 +41,10 @@ body{
     height: 48px;
 }
 .container{
+    overflow: hidden; /*Travar scroll do site*/
     height: 100vh;
 }
+
 /*MENU*/
 
 .menu{
@@ -81,6 +83,9 @@ body{
     padding-right: 10px;
     cursor: pointer; /*CURSOR COMO LUVINHA*/
 }
+.area--contatc:hover{
+    background-color: rgba(128, 128, 128, 0.233);
+}
 .infos--contact{
     gap: 5px;
 }
@@ -109,8 +114,9 @@ body{
 .side--bar{
     height: 70px;
     width: 100%;
-    border-bottom: 0.5px solid #707991;
+    /*border-bottom: 0.5px solid #707991;*/
     gap: 7px;
+    margin: 5px 0px;
 }
 .contact--name{
     font-size: 20px;
@@ -147,6 +153,7 @@ body{
 }
 .message{
     padding: 10px;
+    margin: 0px 10px;
     border-radius: 12px;
     font-family: var(--varFontePrincipal);
     font-size: 16px;
@@ -178,8 +185,22 @@ body{
 .infos--message{
     gap: 5px;
 }
+.pai-div--messages{ /*ADAPTAÇÃO PARA METRALHAR MENSAGENS E NÃO EXTRAPOLAR A DIV MESSAGES*/
+    height: auto;
+    overflow: hidden;
+}
 .div--messages{
+    overflow-y: auto; /*criando scroll na div de exibição de mensagens*/
+    overflow-x: hidden; /* Evita a quebra lateral */
     gap: 10px;
+    margin-top: 10px;
+    max-height: 600px;
+    padding: 10px;
+}
+.div--messages::-webkit-scrollbar{
+    scroll-behavior: auto;
+    height: 0.1px;
+    width: 1px;
 }
 .div--text--field{
     height: 56px;
@@ -231,8 +252,4 @@ body{
 .emoji-selecionado{
     margin-top: 5px;
     font-size: 25px;
-}
-#minhafoto{
-    width: 50px;
-    height: 50px;
 }

@@ -101,7 +101,7 @@ const listaDeContatos = [
         nome : "Gennari",
         ultimaMensagem : "Exibindo última mensagem!",
         horarioUltimaMensagem : "14:02",
-        avatar : "src/assets/images/chatbot.png",
+        avatar : "src/assets/images/Emily.png",
         converas : [
             {
                 mensagem : "Oi, eu sou o principe",
@@ -120,8 +120,192 @@ const listaDeContatos = [
             }
             
         ]
-
-    }
+    
+    },
+    /*{id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
+    },
+    {id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
+    },
+    {id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
+    },
+    {id : 1,
+            nome : "Maria",
+            ultimaMensagem : "Olá, vamos programar?",
+            horarioUltimaMensagem : "20:20",
+            avatar : "src/assets/images/Jessica.png",
+            converas : [
+                {
+                    mensagem : "Oi, eu sou a Maria! ",
+                    tipo : "recebida",
+                    horario : "20:20"
+                },
+                {
+                    mensagem : "Que legal, eu sou o Gennari!",
+                    tipo : "enviada",
+                    horario : "20:20"
+                },
+                {
+                    mensagem : "Vamos codar juntos?",
+                    tipo : "recebida",
+                    horario : "20:20"
+                }
+            ],
+    },
+    {id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
+    },
+    {id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
+    },
+    {id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
+    },
+    {id : 1,
+        nome : "Maria",
+        ultimaMensagem : "Olá, vamos programar?",
+        horarioUltimaMensagem : "20:20",
+        avatar : "src/assets/images/Jessica.png",
+        converas : [
+            {
+                mensagem : "Oi, eu sou a Maria! ",
+                tipo : "recebida",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Que legal, eu sou o Gennari!",
+                tipo : "enviada",
+                horario : "20:20"
+            },
+            {
+                mensagem : "Vamos codar juntos?",
+                tipo : "recebida",
+                horario : "20:20"
+            }
+        ],
+    }*/
 ]
 document.addEventListener("DOMContentLoaded", ()=>{
 
@@ -149,23 +333,38 @@ document.addEventListener("DOMContentLoaded", ()=>{
         } else {
             const mensagemRenderizada = renderizarMensagens("enviada", textoMensagem, "20:33")
             listaMensagens.appendChild(mensagemRenderizada)
+
+            setTimeout(() => {
+                scrollToBottom();
+            }, 10);      // delay na renderização paera fazer o efeito de ir até o final do scroll   
+
             inputMsg.value = '';
             setTimeout(responderMensagem, 2000);
         }   
     }
-        const respostasParaOBot = [
+    function scrollToBottom() { // fazendo com que mensagens recem adicionadas vão para o fim do scroll
+        const ultimaMensagem = listaMensagens.lastElementChild;
+        if (ultimaMensagem) {
+            ultimaMensagem.scrollIntoView({ behavior: "smooth" });
+        }
+    }
+    const respostasParaOBot = [
             "Olá, tudo bem?",
             "Como você está?",
             "Qual o seu nome?",
-            "Meu nome é O Novo Bot",
-            "Eu faço o curso do novo programador",
+            "Meu nome é bot Cabuloso",
+            "Estou aprendendo JavaScript",
             "Você quer conversar comigo?"
-        ]
+    ]
     function responderMensagem(){ //BOT IRÁ RESPONDER A MENSAGEM
         const posicao = Math.floor(Math.random() * respostasParaOBot.length) //math random sorteia valores entre 0 e 1 
         const menssagemDoBot = respostasParaOBot[posicao];
         const mensagemRenderizada = renderizarMensagens("recebida", menssagemDoBot, "19:33")
         listaMensagens.appendChild(mensagemRenderizada)
+        setTimeout(() => {
+            scrollToBottom();
+        }, 50);
+        notificarNovaMensagem();
     }
 
     function carregarMensagemContato(index){ //CARREGANDO MENSAGENS DE UM CONTATO ESPECÍFICO
@@ -198,22 +397,22 @@ document.addEventListener("DOMContentLoaded", ()=>{
             divParentElement.classList.add("flex", "area--contatc", "fade-in" ) // esse comando me permite "enxugar" o elemento abaixo e retirar a div: <div class="flex area--contatc">
 
             divParentElement.innerHTML = `
-                    <div class="flex justify--content--center align--items--center flex--1">
-                        <img class="avatar--left--bar" src="${contato.avatar}"">
-                    </div>
-
-                    <div class="flex flex--direction--column justify--content--center flex--3">
-                        <div class="flex align--items--center infos--contact">
-                            <div class="font--family font--weight--bold">${contato.nome}</div>
+                        <div class="flex justify--content--center align--items--center flex--1">
+                            <img class="avatar--left--bar" src="${contato.avatar}"">
                         </div>
-                        <div class="last--message">
-                            ${contato.ultimaMensagem}
-                        </div>
-                    </div>
 
-                    <div class="flex flex--direction--column flex--1 align--items--end justify--content--center div--last--messages--info ">
-                        <div class="hour--last--message">${contato.horarioUltimaMensagem}</div>
-                    </div>
+                        <div class="flex flex--direction--column justify--content--center flex--3">
+                            <div class="flex align--items--center infos--contact">
+                                <div class="font--family font--weight--bold">${contato.nome}</div>
+                            </div>
+                            <div class="last--message">
+                                ${contato.ultimaMensagem}
+                            </div>
+                        </div>
+
+                        <div class="flex flex--direction--column flex--1 align--items--end justify--content--center div--last--messages--info ">
+                            <div class="hour--last--message">${contato.horarioUltimaMensagem}</div>
+                        </div>
                 `;
 
             divParentElement.addEventListener("click", () =>{
@@ -338,10 +537,14 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
     }
 
-    function notificarNovaMensagem(){
-
-        setInterval(()=>{
-            document.title = "Nova Mensagem"
+    function notificarNovaMensagem(){ // notificando no title se tem uma mensagem nova (do bot)
+        let contador = 0
+        let intervalo = setInterval(()=>{
+            document.title = contador % 2 ===0? `(${contador})Nova Mensagem` : tituloOriginal
+            contador ++; // blink do title (piscando)
+            if (abaFocada){
+                clearInterval(intervalo) // interromper setInterval fazendo com que o title mude para o original, precisa de declarar uma variável que receba o setInterval 
+            }
         }, 1000)
     }
 
